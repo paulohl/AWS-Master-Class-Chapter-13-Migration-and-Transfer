@@ -1,0 +1,44 @@
+<div><b>AWS DataSync</b></div><div>AWS DataSync is a fully managed data transfer service that simplifies
+and accelerates moving large amounts of data between on-premises storage
+systems and AWS storage services, such as Amazon S3, Amazon EFS, and
+Amazon FSx for Windows File Server. It is designed to transfer data
+securely and efficiently over the internet or AWS Direct Connect links,
+enabling organizations to migrate data, perform data backups, and
+synchronize data across different storage environments.</div><div>Key Features of AWS DataSync:</div><ul><li><b>High-Speed Data Transfer</b> : AWS DataSync utilizes a
+purpose-built transfer protocol optimized for high-speed data
+transfer, enabling organizations to move data at speeds up to 10 times
+faster than traditional data transfer methods.</li><li><b>Simple Setup and Management</b> : The service offers a
+user-friendly console and command-line interface (CLI) for configuring
+and managing data transfer tasks. Users can easily set up transfer
+tasks, monitor progress, and troubleshoot any issues using AWS
+Management Console.</li><li><b>Automatic Encryption and Data Validation</b> : AWS DataSync
+automatically encrypts data in transit using SSL/TLS protocols and
+provides data integrity validation during transfer to ensure that data
+arrives securely and intact at the destination.</li><li><b>Support for Multiple Storage Systems</b> : AWS DataSync supports a
+wide range of storage systems, including Network Attached Storage
+(NAS), Storage Area Networks (SAN), and file servers, allowing
+organizations to migrate data from various sources to AWS storage
+services seamlessly.</li><li><b>Incremental Data Transfer</b> : The service performs incremental
+data transfers, ensuring that only the changes made to files since the
+last transfer are synchronized, reducing overall transfer time and
+bandwidth usage.</li></ul><div>User Scenarios:</div><div>Let’s explore two user scenarios that demonstrate the practical
+applications of AWS DataSync:</div><div>Scenario 1: Data Migration to Amazon S3</div><div>A media production company needs to migrate large video files stored on
+its on-premises NAS device to Amazon S3 for archival and disaster
+recovery purposes. The company leverages AWS DataSync to transfer
+terabytes of video data to Amazon S3 buckets securely and efficiently.
+With DataSync, the company sets up transfer tasks, specifies the source
+and destination locations, and configures data transfer options such as
+encryption and validation settings. AWS DataSync transfers the video
+files to Amazon S3, where they can be accessed and managed easily using
+AWS services like Amazon S3 Lifecycle policies and Amazon S3 Glacier for
+long-term storage.</div><div>Scenario 2: Data Synchronization Across Multiple Locations</div><div>A multinational retail chain operates multiple regional data centers
+that store inventory and sales data for its stores worldwide. The
+company wants to ensure that inventory data remains synchronized across
+all data centers in near real-time to optimize inventory management and
+fulfillment operations. Using AWS DataSync, the company sets up
+bidirectional data synchronization tasks between its regional data
+centers and Amazon EFS file systems in AWS regions closest to each data
+center. DataSync continuously synchronizes inventory data between
+on-premises data centers and AWS, ensuring that all locations have
+access to the latest inventory information, improving operational
+efficiency, and reducing the risk of stockouts.</div>
